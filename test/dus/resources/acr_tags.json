@@ -1,0 +1,344 @@
+{
+  "registry": "orgprj.azurecr.io",
+  "imageName": "prj-infra-dummy",
+  "tags": [
+    {
+      "name": "20200324.4",
+      "digest": "sha256:30409f448a60a59af867e4bda87eb0fbe6c99ccb48e12dc3dbb5bad598743b78",
+      "createdTime": "2020-03-24T09:27:15.8881661Z",
+      "lastUpdateTime": "2020-03-24T09:27:15.8881661Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200326.1",
+      "digest": "sha256:77a6536bf3a6e0dca7e201c556276edc31b536f642b9fc557671f4e15b103cc7",
+      "createdTime": "2020-03-26T12:55:46.0417734Z",
+      "lastUpdateTime": "2020-03-26T12:55:46.0417734Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200326.2",
+      "digest": "sha256:ebfac91f479e041a4674bbbe0091eefb66dbf652baff719fa9bb01bb5a08dc40",
+      "createdTime": "2020-03-26T13:20:31.2254957Z",
+      "lastUpdateTime": "2020-03-26T13:20:31.2254957Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200326.3",
+      "digest": "sha256:ffe627b5465fb0f2fd3882137df863c13e2060342dcffc96dc42b8c58cc3ebbd",
+      "createdTime": "2020-03-26T13:44:22.4904164Z",
+      "lastUpdateTime": "2020-03-26T13:44:22.4904164Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200402.1",
+      "digest": "sha256:4b4cb9a68741bdef4eab615f0616d8641e93bc5b67270b7619395d334dfb8f72",
+      "createdTime": "2020-04-02T11:11:10.3404955Z",
+      "lastUpdateTime": "2020-04-02T11:11:10.3404955Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200406.1",
+      "digest": "sha256:f7acc83b6a32349dd8c82112086bb44da89846cd09a52985393fd5eb6396b8da",
+      "createdTime": "2020-04-06T14:03:42.5517749Z",
+      "lastUpdateTime": "2020-04-06T14:03:42.5517749Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200406.2",
+      "digest": "sha256:9fd039d8e6c03f18d83ad88e7faad8924a2d323e4c405d0cd6bc4f1536fc95b8",
+      "createdTime": "2020-04-06T14:50:09.7212635Z",
+      "lastUpdateTime": "2020-04-06T14:50:09.7212635Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200409.1",
+      "digest": "sha256:974e8b12a891cd6781eee311eb2937b9b2b6fcd206a47749df81be6297fd0cee",
+      "createdTime": "2020-04-09T05:57:26.6117737Z",
+      "lastUpdateTime": "2020-04-09T05:57:26.6117737Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200414.1",
+      "digest": "sha256:949a473382c13886b33d0dfc7f63963f72be40235c8e16b19d649e59ea1cae93",
+      "createdTime": "2020-04-14T07:25:29.1973576Z",
+      "lastUpdateTime": "2020-04-14T07:25:29.1973576Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200417.1",
+      "digest": "sha256:05adcc32dd4d7dc4a2e8e7b4d9047f057c58106ea1c82dce0551badc0abd9328",
+      "createdTime": "2020-04-17T05:41:53.1456822Z",
+      "lastUpdateTime": "2020-04-17T05:41:53.1456822Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200417.2",
+      "digest": "sha256:9fa90815ed9fdd7a96d2d5c96858e3e7cb70c1cbe9e21cb7e860ce247c00a476",
+      "createdTime": "2020-04-17T07:15:29.1647379Z",
+      "lastUpdateTime": "2020-04-17T07:15:29.1647379Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200417.3",
+      "digest": "sha256:10ffbea389269de3a24ab2764cbc30f9a3ef81c999a0e07a095ee6fe13706161",
+      "createdTime": "2020-04-17T07:25:27.7031327Z",
+      "lastUpdateTime": "2020-04-17T07:25:27.7031327Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200417.4",
+      "digest": "sha256:f0617bc7f0be42e710275e1fcd40dd439f245e6603bef9596083d902b2432ddd",
+      "createdTime": "2020-04-17T07:49:23.8874173Z",
+      "lastUpdateTime": "2020-04-17T07:49:23.8874173Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200420.1",
+      "digest": "sha256:97664c45111a3aeaafcb43720da3057945d9a68b6a3b92e4a8bfa762b9ac0e73",
+      "createdTime": "2020-04-20T13:23:03.0603385Z",
+      "lastUpdateTime": "2020-04-20T13:23:03.0603385Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200421.1",
+      "digest": "sha256:baa3b1e11a653fbf669cb7963a86ffdb49529fb57b46990cfdec6b14d3061953",
+      "createdTime": "2020-04-21T10:07:07.6565896Z",
+      "lastUpdateTime": "2020-04-21T10:07:07.6565896Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200427.3",
+      "digest": "sha256:5cd7822f94c18e2d4d865cb8088690f84c7338d6c12457e13cd6a41e3a43e624",
+      "createdTime": "2020-04-27T14:31:00.4559557Z",
+      "lastUpdateTime": "2020-04-27T14:31:00.4559557Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200427.4",
+      "digest": "sha256:55e56dd483b1817b8ee7738474527126af59360e4ca2c5c945fcfb8deff44570",
+      "createdTime": "2020-04-27T14:39:25.0331864Z",
+      "lastUpdateTime": "2020-04-27T14:39:25.0331864Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200428.1",
+      "digest": "sha256:ee806bcf5a0c2147db3c45d6a5376c173ee8d04f4a339a8b03e170c8ac3235e2",
+      "createdTime": "2020-04-28T05:27:34.4103796Z",
+      "lastUpdateTime": "2020-04-28T05:27:34.4103796Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200428.2",
+      "digest": "sha256:dcd7a50ce4855314ae74479073ef2ab0ec3b44e38f39dd04497b9f6f32a5f74b",
+      "createdTime": "2020-04-28T11:09:27.128858Z",
+      "lastUpdateTime": "2020-04-28T11:09:27.128858Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200504.4",
+      "digest": "sha256:7befc1993f0c55e1a7c7e3894d88c555d50ff859dce2f1ae27c4bbebb7d85c39",
+      "createdTime": "2020-05-04T13:19:58.0478136Z",
+      "lastUpdateTime": "2020-05-04T13:19:58.0478136Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200505.2",
+      "digest": "sha256:f20f713aac554402fe4cd40d1aff7affc9fb9db384b0a5fc02fd66ca7792e700",
+      "createdTime": "2020-05-05T05:22:18.7142683Z",
+      "lastUpdateTime": "2020-05-05T05:22:18.7142683Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200505.3",
+      "digest": "sha256:9cf0e80bcb77c37e56bfc48a36ffa4a133dfcf7531410efb648719bc50966799",
+      "createdTime": "2020-05-05T06:01:05.7922155Z",
+      "lastUpdateTime": "2020-05-05T06:01:05.7922155Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "20200505.4",
+      "digest": "sha256:5e6790a35bf8eaf185d0fffd0e951b3f17c16631172fd74603ba3f54160bbc70",
+      "createdTime": "2020-05-05T10:11:44.1997799Z",
+      "lastUpdateTime": "2020-05-05T10:11:44.1997799Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "3.7",
+      "digest": "sha256:5e6790a35bf8eaf185d0fffd0e951b3f17c16631172fd74603ba3f54160bbc70",
+      "createdTime": "2020-03-24T08:59:02.6575685Z",
+      "lastUpdateTime": "2020-05-05T10:11:42.8528237Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "4787831d4bbface600dec06d78cbb93bbe7e4d07",
+      "digest": "sha256:305314abe02e2c8b9f9057020f604fd08af63ee69f5ffefc543287d519ef19b0",
+      "createdTime": "2020-03-24T08:59:04.4905479Z",
+      "lastUpdateTime": "2020-03-24T08:59:04.4905479Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    },
+    {
+      "name": "807f8da9fbd829773e176d28717db57e2843cbe1",
+      "digest": "sha256:2cd64a05ff5c1f5bf399159e672c57a54800fe225663a941eb8f52706a8a2522",
+      "createdTime": "2020-03-24T09:19:03.4636206Z",
+      "lastUpdateTime": "2020-03-24T09:19:03.4636206Z",
+      "signed": false,
+      "changeableAttributes": {
+        "deleteEnabled": true,
+        "writeEnabled": true,
+        "readEnabled": true,
+        "listEnabled": true
+      }
+    }
+  ]
+}

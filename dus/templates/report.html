@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>HMG | Docker Update Scan - Report</title>
+
+        <style type="text/css">
+            h1 {
+                text-align: center;
+                font-family: sans;
+                color: #303a74;
+            }
+
+            .c-project__data {
+                margin: 5px;
+                background-color: #fff8de;
+            }
+
+            h2 {
+                background-color: #99abbe;
+                font-size: 1.2em;
+            }
+
+            .c-repo-name {
+                color: #000000 !important;
+            }
+
+            .c-update {
+                background-color: #ff9650 !important;
+            }
+
+            .c-error {
+                background-color: #ff0000 !important;
+            }
+            
+            .c-outdated {
+                background-color: #d43f3f !important;
+            }
+
+            table {
+                width: 100%;
+            }
+            table thead th {
+                border-bottom: 1px solid black;
+            }
+            table tbody tr:nth-child(odd) td {
+                background-color: #fffef6;
+            }
+            table tbody tr:nth-child(even) td {
+                background-color: #f4e9ce;
+            }
+            table tbody td:nth-child(odd) {
+                color: #555555;
+            }
+            table tbody td:nth-child(3) {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Docker Update Scan Report - von <span class="c-scan__reportdate">{{ report_date }}</span></h1>
+
+        {% for project in projects %}
+        <div class="c-project__data">
+            <h2>{{ project }}</h2>
+            <table>
+                  <thead>
+                  <tr>
+                      <th>Repo</th>
+                      <th>Update-Date</th>
+                      <th>May need Release</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  {% for repo in repos %} {% if repo["project"] == project %}
+                      <tr>
+                          {% if repo["parent_image_outdated"] %}
+                            <td class="c-repo-name c-outdated">{{ repo["name"] }}</td>
+                          {% else %}
+                            <td class="c-repo-name">{{ repo["name"] }}</td>
+                          {% endif %}
+                          {% if repo["updateDate"] == "ERROR" %}
+                            <td class="c-error">{{ repo["updateDate"] }}</td>
+                          {% elif repo["parent_image_outdated"] %}
+                            <td class="c-outdated">{{ repo["updateDate"] }} - OUTDATED PARENT IMAGE: {{ repo["parent_image"] }}</td>
+                          {% else %}
+                            <td>{{ repo["updateDate"] }}</td>
+                          {% endif %}
+                          {% if repo["needUpdate"] %}
+                            <td class="c-update">{{ repo["needUpdate"] }}</td>
+                          {% else %}
+                            <td>{{ repo["needUpdate"] }}</td>
+                          {% endif %}
+                      </tr>
+                  {% endif %} {% endfor %}
+                  </tbody>
+              </table>
+        </div>
+        {% endfor %}
+    </body>
+</html>

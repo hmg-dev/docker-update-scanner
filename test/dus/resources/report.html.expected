@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>HMG | Docker Update Scan - Report</title>
+
+        <style type="text/css">
+            h1 {
+                text-align: center;
+                font-family: sans;
+                color: #303a74;
+            }
+
+            .c-project__data {
+                margin: 5px;
+                background-color: #fff8de;
+            }
+
+            h2 {
+                background-color: #99abbe;
+                font-size: 1.2em;
+            }
+
+            .c-repo-name {
+                color: #000000 !important;
+            }
+
+            .c-update {
+                background-color: #ff9650 !important;
+            }
+
+            .c-error {
+                background-color: #ff0000 !important;
+            }
+            
+            .c-outdated {
+                background-color: #d43f3f !important;
+            }
+
+            table {
+                width: 100%;
+            }
+            table thead th {
+                border-bottom: 1px solid black;
+            }
+            table tbody tr:nth-child(odd) td {
+                background-color: #fffef6;
+            }
+            table tbody tr:nth-child(even) td {
+                background-color: #f4e9ce;
+            }
+            table tbody td:nth-child(odd) {
+                color: #555555;
+            }
+            table tbody td:nth-child(3) {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Docker Update Scan Report - von <span class="c-scan__reportdate">2020-05-14 12:33:06.896510</span></h1>
+
+        
+        <div class="c-project__data">
+            <h2>Brain</h2>
+            <table>
+                  <thead>
+                  <tr>
+                      <th>Repo</th>
+                      <th>Update-Date</th>
+                      <th>May need Release</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                               
+                      <tr>
+                          
+                            <td class="c-repo-name">dummy-problem</td>
+                          
+                          
+                            <td class="c-error">ERROR</td>
+                          
+                          
+                            <td>False</td>
+                          
+                      </tr>
+                    
+                      <tr>
+                          
+                            <td class="c-repo-name c-outdated">chia-earth-proxy</td>
+                          
+                          
+                            <td class="c-outdated">2020-05-10 10:45:23 - OUTDATED PARENT IMAGE: ubuntu-narf:42</td>
+                          
+                          
+                            <td>False</td>
+                          
+                      </tr>
+                   
+                  </tbody>
+              </table>
+        </div>
+        
+        <div class="c-project__data">
+            <h2>PRJ</h2>
+            <table>
+                  <thead>
+                  <tr>
+                      <th>Repo</th>
+                      <th>Update-Date</th>
+                      <th>May need Release</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                   
+                      <tr>
+                          
+                            <td class="c-repo-name">infra-docker-dummy</td>
+                          
+                          
+                            <td>2020-05-14 11:45:23</td>
+                          
+                          
+                            <td>False</td>
+                          
+                      </tr>
+                    
+                      <tr>
+                          
+                            <td class="c-repo-name">infra-docker-narf</td>
+                          
+                          
+                            <td>2020-04-14 11:45:23</td>
+                          
+                          
+                            <td>False</td>
+                          
+                      </tr>
+                    
+                      <tr>
+                          
+                            <td class="c-repo-name">prj-docker-zort</td>
+                          
+                          
+                            <td>2020-04-12 12:45:23</td>
+                          
+                          
+                            <td>False</td>
+                          
+                      </tr>
+                             
+                  </tbody>
+              </table>
+        </div>
+        
+        <div class="c-project__data">
+            <h2>Pinky</h2>
+            <table>
+                  <thead>
+                  <tr>
+                      <th>Repo</th>
+                      <th>Update-Date</th>
+                      <th>May need Release</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                         
+                      <tr>
+                          
+                            <td class="c-repo-name">client-project-aujunge</td>
+                          
+                          
+                            <td>2020-05-10 10:45:23</td>
+                          
+                          
+                            <td>False</td>
+                          
+                      </tr>
+                    
+                      <tr>
+                          
+                            <td class="c-repo-name">world-domination-importer</td>
+                          
+                          
+                            <td>2020-04-10 15:45:23</td>
+                          
+                          
+                            <td class="c-update">True</td>
+                          
+                      </tr>
+                    
+                      <tr>
+                          
+                            <td class="c-repo-name">dictator-song-tool</td>
+                          
+                          
+                            <td>2020-03-10 10:45:23</td>
+                          
+                          
+                            <td>False</td>
+                          
+                      </tr>
+                       
+                  </tbody>
+              </table>
+        </div>
+        
+        <div class="c-project__data">
+            <h2>TEST</h2>
+            <table>
+                  <thead>
+                  <tr>
+                      <th>Repo</th>
+                      <th>Update-Date</th>
+                      <th>May need Release</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                                  
+                  </tbody>
+              </table>
+        </div>
+        
+    </body>
+</html>
