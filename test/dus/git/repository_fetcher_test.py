@@ -44,7 +44,7 @@ class RepositoryFetcherTest(unittest.TestCase):
         unstub()
 
     def test_clone_repo(self):
-        expected_cmd = f"cd {conf.workdir} && git clone {self.dummy_url}"
+        expected_cmd = f"cd {conf.workdir} && git clone {self.dummy_url} {self.dummy_name}"
         expected_target_path = conf.workdir + self.dummy_name
 
         result = self.sut.clone_repo()
@@ -52,7 +52,7 @@ class RepositoryFetcherTest(unittest.TestCase):
         verify(subprocess, times=1).run(expected_cmd, capture_output=True, encoding="UTF-8", shell=True)
 
     def test_clone_repo_for_error(self):
-        expected_cmd = f"cd {conf.workdir} && git clone {self.dummy_url}"
+        expected_cmd = f"cd {conf.workdir} && git clone {self.dummy_url} {self.dummy_name}"
         dummy_output = "Cloning into 'infra-docker-dummy'..."
         self.process = mock({"returncode": 1, "stderr": "error cloning repo", "stdout": dummy_output})
         when(subprocess).run(ANY(str), capture_output=True, encoding="UTF-8", shell=True).thenReturn(self.process)
@@ -82,7 +82,7 @@ class RepositoryFetcherTest(unittest.TestCase):
 
     def test_clone_or_update_repo_for_clone(self):
         conf.workdir = "/tmp/INVALID/"
-        expected_cmd = f"cd {conf.workdir} && git clone {self.dummy_url}"
+        expected_cmd = f"cd {conf.workdir} && git clone {self.dummy_url} {self.dummy_name}"
         expected_target_path = conf.workdir + self.dummy_name
 
         result = self.sut.clone_or_update_repo()

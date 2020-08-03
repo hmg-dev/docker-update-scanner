@@ -34,7 +34,7 @@ class RepositoryFetcher(object):
 
     def clone_repo(self):
         print(f"fetching repository: {self.url}")
-        cmd = f"cd {conf.workdir} && git clone {self.url}"
+        cmd = f"cd {conf.workdir} && git clone {self.url} {self.name}"
         return self._invoke(cmd)
 
     def target_path(self):
