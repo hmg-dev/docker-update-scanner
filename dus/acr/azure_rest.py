@@ -45,7 +45,7 @@ class DockerImageDetails(object):
         return cls(acr, name, tag=tag)
 
     def az_latest_tag(self):
-        url = f"https://{self.acr}.azurecr.io/acr/v1/{self.image_name}/_tags"
+        url = f"https://{self.acr}.azurecr.io/acr/v1/{self.image_name}/_tags?n=500"
         credentials = (self.acr, os.getenv(ENV_ACR_PREFIX + self.acr))
 
         response = requests.get(url, headers=HEADERS_JSON, auth=credentials)

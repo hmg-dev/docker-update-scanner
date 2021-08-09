@@ -37,7 +37,7 @@ class AzureRestTest(unittest.TestCase):
         unstub()
 
     def test_az_latest_tag(self):
-        expected_url = f"https://{self.dummy_acr}.azurecr.io/acr/v1/{self.dummy_img}/_tags"
+        expected_url = f"https://{self.dummy_acr}.azurecr.io/acr/v1/{self.dummy_img}/_tags?n=500"
         expected_credentials = (self.dummy_acr, self.dummy_passwd)
         with open(os.path.dirname(__file__) + "/../resources/acr_tags.json", 'r') as f:
             dummy_response = f.read()
